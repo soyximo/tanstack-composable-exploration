@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const { spaceships, addSpaceship } = useSpaceships();
+  const { spaceships } = useSpaceships();
   const spaceship = ref("");
   const add = () => {
     addSpaceship(spaceship.value);
